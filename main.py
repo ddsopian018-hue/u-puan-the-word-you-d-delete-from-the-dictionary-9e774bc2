@@ -17,6 +17,8 @@ WORD = "irregardless"
 
 
 def main() -> int:
+    if not WORD or not WORD.isalpha():
+        raise ValueError("entry must be exactly one dictionary word")
     out_dir = os.environ.get("MAKEFUN_OUTPUT_DIR") or os.path.join(".", "output")
     out_path = Path(out_dir) / "entry.txt"
     out_path.parent.mkdir(parents=True, exist_ok=True)

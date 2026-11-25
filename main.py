@@ -2,8 +2,11 @@
 """Write the single word to delete from the dictionary.
 
 The word is the whole entry: it must stand alone, with no explanation,
-and be funny at first sight. The output path comes from the
-MAKEFUN_OUTPUT_DIR environment variable, falling back to ./output.
+and be funny at first sight. "Irregardless" earns the axe because it
+is a double negative wearing a prefix it does not need — "regardless"
+already does the job, and the extra "ir-" only exists to make the
+speaker sound more certain while being more wrong. The output path comes
+from the MAKEFUN_OUTPUT_DIR environment variable, falling back to ./output.
 """
 
 import os
